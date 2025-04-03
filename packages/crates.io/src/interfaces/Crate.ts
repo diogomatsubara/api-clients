@@ -22,6 +22,7 @@ export interface Crate {
     versions: string;
   };
   max_version: string;
+  newest_version: string;
   name: string;
   recent_downloads: number | null;
   repository: string | null;
